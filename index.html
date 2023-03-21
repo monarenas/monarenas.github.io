@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Mónica Arenas">
+    <meta name="description" content="Portafolio de Mónica Arenas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Mónica Arenas | Portafolio de proyectos</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/flower2.svg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/flower2.svg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#referencias">Referencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/opcion1.jpg" alt="Foto de Mónica Arenas">
+        <h1>Hola, soy Mónica Arenas</h1>
+        <!--<h2>Farmacia clínica y desarrollo de sitios web
+          .</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/header.png" alt="Women in STEM.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Mónica Arenas </h2>
+        <p class="seccion-texto">Soy Químico Farmaceútico-Biólogo graduada de la Universidad Autónoma de Aguascalientes, además realicé un diplomado en Farmacia Clínica y Hospitalaria en la Universidad Cuauhtémoc. Actualmente me dedico a la Farmacia Hospitalaria y estoy adentrándome al mundo de la Programación gracias a TecnolochicasPRO.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Farmacia Clínica y Hospitalaria -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-capsule" src="imagenes/capsule.svg" ></i>
+            <p class="experiencia-titulo">Farmacia Clínica</p>
+            <p>Realizo análisis de farmacoterapia y brindo orientación en todas las fases de la cadena de medicación en ambientes hospitalarios.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-light">Medicamentos</span>
+              <span class="badge text-bg-light">Farmacovigilancia</span>
+            </div>
+          </div>
+          <!-- Investigación -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-clipboard-data" src="imagenes/clipboard-data.svg"></i>
+            <p class="experiencia-titulo">Investigación</p>
+            <p>Realizo trabajos de investigación experimental basados en el método científico.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-light">Redacción</span>
+              <span class="badge text-bg-light">Traducción</span>
+              <span class="badge text-bg-light">Análisis estadístico</span>
+            </div>
+          </div>
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Construyo sitios web responsivos, modernos y minimalistas con diferentes tecnologías actuales de las más demandadas en la industria de programación. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-light">HTML</span>
+              <span class="badge text-bg-light">CSS</span>
+              <span class="badge text-bg-light">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mi experiencia</h2>
+      <h3 class="seccion-descripcion">Estas son algunas actividades que he desarrollado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/fc.jpg" alt="Farmacéutico clínico">
+              <div class="overlay">
+                <p>Farmacéutico clínico</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.starmedica.com/home/es/detalle-vacante/farmaceutico" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-hospital"></i>
+                  </a>
+                  <a href="http://www.iner.salud.gob.mx/interna/submed_FarmHospitalaria.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-earmark-medical"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/lab.png" alt="Investigación">
+              <div class="overlay">
+                <p>Alimentos Funcionales</p>
+                <div class="iconos-contenedor">
+                  <a href="https://drive.google.com/file/d/1yQVvwWPARQkrMitoNDUOypHyr_et1gAb/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-file-earmark"></i>
+                  </a>
+                  <a href="https://www.uaa.mx/portal/nuestra-universidad/centros-academicos-2/centro-de-ciencias-basicas/quimica/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-journals"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/clonaciongoogle.jpg" alt="Clonación Google">
+              <div class="overlay">
+                <p>Clonación de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/monarenas/clonaciongoogle" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://poetic-cocada-7edd1c.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <a href="https://github.com/monarenas" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-light">Ver más
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Divulgación</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://drive.google.com/file/d/1yQVvwWPARQkrMitoNDUOypHyr_et1gAb/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Efectos de tratamientos enzimáticos sobre el valor funcional del huitlacoche
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn text-bg-light">
+          Ver más artículos
+                    <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Referencias</h2>
+      <h3 class="seccion-descripcion">Algunos comentarios por personas con las que he trabajado...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/jc.jpg" alt="Foto de Juan Carlos">
+              <p class="testimonio-texto">Mony es una persona movida por la pasión y el compromiso en todo lo que hace; amable, respetuosa y siempre se preocupa por los demás. Si tuviera que pensar en alguien confiable definitivamente sería ella.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Juan Carlos Solís</p>
+                <p class="cargo">Gerente de Gestión Organizacional</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/mich.jpg" alt="Foto de Michelle">
+              <p class="testimonio-texto">Puedo constatar que es alguien responsable, amable y empatica; personalmente es de las personas más íntegras y completas con las que he tenido el gusto de coincidir.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Michelle Guerrero</p>
+                <p class="cargo">Farmacéutico clínico</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/alexis.jpg" alt="Foto de Alexis">
+              <p class="testimonio-texto">Monica ha demostrado ser una persona una bastante responsable  y con una capacidad de resolución ante conflictos bastante madura y eficiente. Respetuosa y agradable, es alguien con quien contar y en quien confiar.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alexis Hernández</p>
+                <p class="cargo">Químico Farmacéutico-Biólogo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              En ciencia y tecnología, compartamos y discutamos conocimientos.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:monarenasgloria@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/flower2.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/monarenasg" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/monarenas" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/monarenasg/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/monarenasg/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:monarenasgloria@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Mónica Arenas (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
